@@ -1,0 +1,994 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* font-family: 'Michroma', sans-serif; */
+/* font-family: 'Outfit', sans-serif; */
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background: #1E1E1E;
+}
+.wrapper{
+    min-width: 1250px;
+    width:100%;
+    margin: 0 auto;
+    height: auto;
+
+}
+/* ############################header############################## */
+header{
+    height: 200px;
+    z-index: 2222222;
+}
+header .log-bg{
+    background-image:url("./images/gradient-circle-top-left.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    top: -160px;
+    background-color: #28A3D8;
+    opacity: 1;
+    filter: blur(160px);
+  
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+  
+}
+
+
+nav .logo img{
+    position: absolute;
+    width: 156px; 
+    height: 135px;
+  
+    
+    top: 20px;
+}
+
+nav ul{
+  display: flex;
+  align-items:flex-start;
+  gap: 77px;
+  list-style:none;
+  margin-top: 30px;
+
+  
+}
+
+
+nav ul li a{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+/* ############## BUTTONS ################# */
+ .btn{
+    background: #FFFFFF;
+    border-radius:110px;
+    color: #000;
+    padding: 10px 15px;
+    font-weight: 700;
+    
+}
+
+.btn-header{
+    width: 117px;
+    height: 50px;
+}
+
+/* ################################UTILITY CLASSES############################# */
+
+.button-margin{
+    margin-top:20px;
+}
+
+
+.para{
+  
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;   
+    color: #FFFFFF;
+
+}
+
+.primary-heading{
+    
+    font-family: 'Michroma', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px; 
+    color: #FFFFFF;
+    
+}
+
+
+/* #########################other BUTTON############################## */
+.btn-hero{
+    text-decoration: none;
+    margin: 50px 0px;
+    padding: 10px 20px;
+}
+
+.btn-secthree{
+    text-decoration: none;
+    margin: 50px 0px;
+    padding: 10px 20px;
+}
+.btn-secfour{
+    text-decoration: none;
+    margin:0 5px;
+    padding: 10px 20px;
+    width:150px;
+    height:53;
+}
+/* ############################# SECTION HEADER ############################ */
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-heading{
+    width:800px;
+    height: 130px;
+    text-align: center;
+    align-content: center;
+
+}
+
+
+.para1{
+    width: 600px;
+    height: 84px;   
+    text-align: center;
+
+}
+.para2{
+    width: 800px;
+    z-index: 999;
+    height: 84px;   
+    text-align: center;
+}
+
+
+.hero-container .image-hero1 img{
+    position: relative;
+    width: 1150px;
+    height: 520px;
+    margin:20px 0px;
+    border-radius: 25%;
+    z-index:9;
+    /* opacity: 1; */
+}
+
+.img-group img{
+    width: 580px;
+    height: 490px;
+   
+}
+
+.hero-bg-img{
+    background-image: url(./images/pink-bg.png);
+    position: absolute;
+    width:63%;
+    height: 1300px;
+    left: 464px;
+    top: 309px;
+    background-size: cover;
+    z-index:0;
+    /* border-radius: 50px; */
+    
+}
+
+/* ################################2nd section############################## */
+
+.section-two-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 70px;
+    flex-wrap: wrap;
+
+  
+
+}
+.right-img img{
+    position: relative;
+    width: 500px;
+    height: 450px ;
+    z-index: 11;
+}
+
+.section-two-content{
+    position: relative;
+   width:450px;
+   z-index: 11;
+   opacity: 1;
+}
+
+#section-two .left-green-bg{
+
+    background-image: url(./images/green-bg.png);
+    position: absolute;
+    width: 793px;
+    height: 1412px;
+     background-size: cover;
+     background-clip: content-box;
+    left:2px;
+    top: 1212px;
+    background-repeat: no-repeat;
+    z-index:0;
+    opacity: 0.7;
+    /* padding: 0px; */
+
+}
+
+.end-parag{
+    
+    position: relative; 
+    width: 1000px;
+    height: 84px; 
+    margin: 200px 70px 100px 70px;
+   
+    /* align-self: center;
+    justify-self: center; */
+    text-align: center; 
+    z-index: 10;
+    /* 
+    justify-content: center;
+    align-items: center; */
+
+}
+
+/* ###########################SECTION THREE################################ */
+
+.section-three-container{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.left-content img{
+    width: 400px;
+    height: 550px;
+}
+
+.right-content{
+    position: relative;
+    width: 350px;
+    height: 335px;
+  
+}
+.right-content  .right-para3{
+    margin-bottom: 10px;
+}
+
+#section-three .right-purple-bg{
+    
+    background-image: url(./images/purple-bg.png);
+    position: absolute;
+    width: 725px;
+    height: 1186px;
+    background-size: cover;
+    /* padding-bottom: 50px; */
+    left: 534px;
+    top: 2200px;
+  
+    background-repeat: no-repeat;
+    z-index:0;
+    opacity: 0.7;
+}
+
+
+/* #########################section 4######################## */
+
+ .para-small-font{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;   
+    color: #FFFFFF;
+
+}
+
+.section-four-container{
+    position: relative;
+    text-align: center;
+    height: 500px;
+    width:600px;
+    padding:100px 25px;
+    margin:0 300px;
+    margin-bottom: 200px;
+
+    
+}
+
+.para5{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 40px;   
+    color: #FFFFFF;
+}
+
+.button{
+    margin-top: 70px;
+}
+
+.ep-for-bg{
+    background-image:url(./images/ep-for-bg.png);
+    position: absolute;
+    width: 820px;
+    height: 800px;
+    left: calc(50% - 820px/2 - 48px);
+    top: 3077px;
+    background-size: cover;
+}
+
+/* ################################Modern-ev Designing################################## */
+
+.modern-ev-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:0px 50px 100px 50px;
+}
+.hand-image-left img{
+    width: 630px;
+    height: 650px;
+}
+
+.modern-ev-content{
+    width:450px;
+    height: 500px;
+}
+.modern-button{
+    margin-top: 20px;
+}
+.btn-ev{
+    text-decoration: none;
+    padding: 13px 24px;
+}
+.modern-ev-content ul{
+    padding:0px 50px;
+    list-style: none;
+    
+}
+
+.modern-ev-content ul li::before {
+    content: "\2022"; 
+    font-size:30px; 
+    color: #2491C1;
+    font-weight: bold; 
+    display: inline-block;
+    width:1em;
+    margin-left:-1em;
+ 
+  }
+
+  /* ####################Last Section######################################## */
+
+.para-small{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 40px;    */
+    color: #FFFFFF;
+    padding: 10px 0px;
+}
+
+.last-section-container{
+    display:flex;
+    justify-content:flex-end;
+    align-content:center;
+    height: 650px;
+    margin-bottom: 200px;
+}
+.last-content{
+    width:450px;
+    height:auto;
+    align-self: center;
+    padding: 5px;
+}
+
+.charger-image-right{
+    width:740px;
+    height:600px;
+}
+
+.last-btn{
+    
+    margin-top:15px;
+}
+.btn-footer{
+    text-decoration: none;
+    padding:15px 25px;
+}
+/* ##############################footer styling################################## */
+.footer-combine{
+    background-color:#05131B;
+    height: 250px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+  
+    
+}
+.footer-container h5{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 35px;
+    color:#718D99;
+}
+
+.footer-container li a{
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.footer-container li{
+    list-style: none;
+}
+
+.footer-base{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    /* margin-top: 19px; */
+    margin:0px 20px 20px 20px;
+}
+.footer-base p{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    color: #718D99;
+}
+
+.footer-base a{
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 12px;
+    color: #718D99;
+    text-decoration: none;
+    padding:5px
+}
+
+/* ###############################About page styling############################### */
+
+.main-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 70px;
+}
+
+
+.content-right img{
+    position: relative;
+    width: 450px;
+    height: 416px;
+
+}
+
+.content-left{
+    width: 450px;
+}
+
+.bg-pink-about{
+    background-image: url(./images/pink-bg.png);
+    position: absolute;
+    width: 63%;
+    height: 1186px;
+    left: 464px;
+    top: -137px;
+    background-size: cover;
+    z-index: -1;
+}
+
+.content-left .about-heading{
+    margin-bottom:50px ;
+
+}
+
+.separate-para{
+    position: relative;
+    margin:0 70px;
+    z-index: 1;
+    margin-top: 70px;
+    margin-bottom: 250px;
+}
+
+.separate-para ul{
+    margin:0 57px;
+}
+
+.separate-para .button{
+    margin-top: 180px;
+    margin-bottom: 10px;
+
+}
+.separate-para .about-btn{
+    text-decoration: none;
+    margin:0px 478px;
+    padding: 10px 20px;
+    width:150px;
+    height:53;
+}
+
+.separate-para .about-para{
+    margin:0px 391px;
+}
+
+/* ##########################solution############################# */
+.solution-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.solution-para{
+    text-align: center;
+    width:1000px;
+    height: 168px;
+}
+
+.image-solution img{
+    width: 1150px;
+    height: 650px;
+    margin-bottom: 87px;
+}
+
+.solution-pink-bg{
+    background-image: url(./images/pink-bg.png);
+    position: absolute;
+    width: 58%;
+    height: 1183px;
+    left: 528px;
+    top:922px;
+    background-size: cover;
+    z-index: 0;
+}
+.solution-box{
+    z-index: 1;
+    position: relative;
+}
+
+.ep-for-bg-solution{
+    background-image: url(./images/ep-for-bg.png);
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: calc(50% - 820px/2 - 48px);
+    top: 1982px;
+    background-size: cover;
+}
+
+.for-solution{
+    margin-top: 300px;
+}
+
+/* ################################--TEAM---################################## */
+.top-heading{
+    font-family: 'Michroma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 118px;
+    
+}
+.team-one-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 58px;
+}
+.right-img-team1 img{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    z-index: 12;
+
+}
+.team-content{
+    width: 370px;
+    height: 400px;
+    align-self: center;
+    position: relative;
+    z-index: 15;
+
+}
+.team-para{  
+    line-height: 20px;
+}
+.team-btn{
+    text-decoration: none;
+}
+.team-button{
+    margin-top:10px;
+}
+
+#team1 .left-green-bg{
+    background-image: url(./images/green-bg.png);
+    position: absolute;
+    width: 567px;
+    height: 1187px;
+    top: 20px;
+    background-size: cover;
+    background-clip: content-box;
+    left: 0px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.7;
+}
+
+
+
+
+/* -----------------Section2------------------ */
+
+.team-two-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 58px;
+    
+}
+
+.left-img-team img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    z-index: 13;
+}
+
+#team2 .right-purple-bg{
+    background-image: url(./images/purple-bg.png);
+    position: absolute;
+    width: 777px;
+    height: 1269px;
+    background-size: cover;
+    left: 483px;
+    top: 828px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: 0.7;
+
+}
+
+/* ------------------section3 team--------------- */
+
+.team-three-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.right-img-3 img{
+    width: 500px;
+    height: 500px;
+}
+
+/* ############################ Contact Page#################################### */
+
+.con-heading{
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+.contact-section-container{
+    
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    width: 895px;
+    height: 528px;
+    border-radius: 10px;
+   margin: 0 auto;
+    
+}
+
+form .column1{
+    display: flex;
+     gap: 15px;
+
+    
+}
+
+
+input{
+    width: 345px;
+    height: 54px;
+    border-radius:10px;
+}
+
+
+form .column2{
+    display: flex;
+    gap: 15px;
+     
+}
+textarea{
+    width: 707px;
+    height: 164px;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+.contact-footer{
+    margin-top:300px;
+}
+
+.submit-button  .btn-sub{
+    text-align: center;
+    margin:37px 285px;
+    width: 134px;
+    height: 54px;
+    border-radius: 57px;
+    /* margin: auto; */
+}
+
+
+ 
+
+.contact .left-green-bg{
+    background-image: url(./images/green-bg.png);
+    position: absolute;
+    width: 567px;
+    height: 1187px;
+    top: 20px;
+    background-size: cover;
+    background-clip: content-box;
+    left: 0px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.contact .right-purple-bg{
+    background-image: url(./images/purple-bg.png);
+    position: absolute;
+    width: 661px;
+    height: 1201px;
+    background-size: cover;
+    left: 599px;
+    top: 20px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ########################### media queries################################## */
+
+@media (max-width:1024px)
+{
+
+   
+.hero-bg-img {
+    background-image: url(./images/pink-bg.png);
+    position: absolute;
+    width: 72%;
+    height: 1300px;
+    left: 524px;
+    top: 309px;
+    background-size: cover;
+    z-index: 0;
+
+}
+
+.ep-for-bg{
+    left: 223px;
+}
+
+}
+
+@media (max-width:768px){
+   
+    .hero-bg-img{
+        background-image: url(./images/pink-bg.png);
+        position: absolute;
+        width:100%;
+        height: 1300px;
+        left: 480px;
+        top: 309px;
+        background-size: cover;
+        z-index: 0;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .wrapper{
+        width:1255px;
+        width:auto
+    }
+    .hero-bg-img{
+        background-image: url(./images/pink-bg.png);
+        position: absolute;
+        width:784px;
+        height: 1300px;
+        left: 480px;
+        top: 309px;
+        background-size: cover;
+        z-index: 0;
+    }
+
+    .section-two-container{
+        flex-direction: column;
+       
+
+        }
+.section-two-content {
+
+    width: 100%;
+
+}
+
+.right-img img{
+    margin:100px;
+    width: 981px;
+    height: 695px;
+}
+.end-parag{
+    /* margin-top: -126px; */
+    margin: 2px 70px 138px 70px
+}
+
+.section-three-container{
+    flex-direction: column;
+
+}
+
+.ep-for-bg{
+    top: 3962px;;
+}
+
+.left-content img{
+    width: 850px;
+    height: 700px;
+    margin-bottom: 50px;
+}
+
+.modern-ev-container{
+    flex-direction: column;
+}
+.hand-image-left img {
+    width: 1003px;
+    margin-left: 204px;
+    height: 690px;
+    margin-bottom: 34px;
+}
+
+.last-section-container {
+    flex-direction: column;
+}
+.right-content{
+    width: auto;
+}
+
+
+.modern-ev-content {
+    width: auto;
+    height: 500px;
+}
+
+.para-small-font {
+    font-size: 21px;
+}
+
+.para{
+    font-size: 23px;
+}
+
+.para5{
+    font-size: 18px;
+}
+.last-content { 
+    width: auto;
+    height: 500px;
+    margin: 0px 168px;
+}
+
+.para-small{
+    font-size: 21px;
+}
+
+.charger-image-right img{
+    width: 1006px;
+    height: 700px;
+    margin-left: 137px;
+}
+}
+
+
+
